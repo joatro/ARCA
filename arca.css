@@ -36,6 +36,11 @@ nav li{
 li a{
     align-items: flex-end;
     color: white;
+    
+}
+ul a{
+    text-decoration: none;
+    
 }
 
 header{
