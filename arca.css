@@ -41,16 +41,32 @@ li a{
 header{
     width: 100%;
     
-    background: url(/img/Screenshot\ 2021-12-26\ 10-03-03.png) no-repeat;
+    background:  linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(/img/Screenshot\ 2021-12-26\ 10-03-03.png) no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 50dvh;
 }
-footer{
-    padding: 40px;
-    width: 100;
-    padding-top: 20px;
-    background-color: transparent;
-    position: relative;
-    padding-bottom: 0;
+p{
+    text-align: center;
+    font-size: xx-large;
+    color: yellow;
+    font-weight: bold;
 }
+footer{
+  
+    width: 100%;
+    margin:0 auto;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    padding: 40px;
+    font-size: 75%;
+    border-top: 1px solid rgb(94,163,154);
+    background: hsl(146, 97%, 12%);
+    bottom: 0;
+    
+  
+    
+    
+  } 
+  
