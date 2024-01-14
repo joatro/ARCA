@@ -11,39 +11,39 @@ align-content: center;
 }
 
 nav{
-    padding: 12px;
     display: block;
     text-decoration: none;
     width: 100%;
-    background: rgb(2, 162, 255);
-    align-items: right;
+    background: rgb(255, 255, 255);
+    text-align: right;
     
 }
-nav ul{
+nav ol{
     text-align: right;
+    text-decoration: none;
+    
 }
 nav li{
-    display: inline-flex;
+    display: block;
     text-decoration: none;
     
     font-size: medium bold;
     color: white;
-    align-items: right;
     
     
 }
 li a{
-    align-items: right;
-    color: white;
-    text-decoration: none;
-    align-items: right;
-    
+        text-decoration: none;
+
+    color: rgb(255, 0, 0);
+    text-align: left;
+ 
 }
 ol a{
     text-decoration: none;
     display: block;
-    color: red;
-    padding: 5px;
+    color: rgb(255, 255, 255);
+    text-align: right;
     
     
 }
