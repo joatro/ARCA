@@ -42,6 +42,13 @@ li a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  
 }
+content{
+    width: 80%;
+    color:black;
+    align-content: center;
+    align-self: center;
+    justify-items: center;
+}
 ul a{
     text-decoration: none;
 }
@@ -85,4 +92,5 @@ footer{
     
     
   } 
+
   
