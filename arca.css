@@ -14,7 +14,7 @@ h4,
 h5,
 h6
 {
-    color:white;
+    color:rgb(0, 0, 0);
 }
 
 body{
@@ -97,8 +97,8 @@ footer{
     text-align: center;
     padding: 20px;
     font-size: 75%;
-    border-top: 1px solid rgb(94,163,154);
-    background: hsl(146, 97%, 12%);
+    border-top: 2px solid rgb(94,163,154);
+    background: green transparent;
     bottom: 0;
     
   
