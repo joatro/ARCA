@@ -71,7 +71,7 @@ ol a{
 header{
     width: 100%;
     
-    background:  linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(/img/Screenshot\ 2021-12-26\ 10-03-03.png) no-repeat;
+    background:  linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url(/img/Screenshot\ 2021-12-26\ 10-03-03.png) no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 50dvh;
