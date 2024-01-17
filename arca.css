@@ -55,12 +55,13 @@ li a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  
 }
-content{
+.content{
     width: 100%;
     position: relative;
     align-content: center;
     align-self: center;
     justify-items: center;
+    text-align: center;
 }
 ul a{
     text-decoration: none;
@@ -88,6 +89,8 @@ p{
     color: yellow;
     font-weight: bold;
 }
+
+
 footer{
   
     width: 100%;
