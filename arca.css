@@ -8,6 +8,7 @@ h2
 {
     color: black;
     align-items: center;
+    text-align: center;
 }
 h3,
 h4,
@@ -19,7 +20,6 @@ h6
 
 body{
 align-content: center;
-    background: linear-gradient(to right, rgba(142, 117, 97, 0.194), rgb(255, 255, 255), rgba(175, 140, 139, 0.308));
     color:black;
 }
 
@@ -55,14 +55,68 @@ li a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  
 }
-.content{
-    width: 100%;
-    position: relative;
-    align-content: center;
-    align-self: center;
-    justify-items: center;
+.content {
+    width:95%;
     text-align: center;
-}
+    vertical-align:middle;
+
+    color:inherit;
+    padding:20px;
+    margin:auto; 
+    background: white;
+    
+  }
+  
+
+.pageitem{
+    width: 100%;
+    text-decoration: none; 
+    border-bottom:1px ;
+    color:inherit; 
+    text-align:justify; 
+    border:#ccc .02px solid;
+    padding: 20px;
+    margin:20px auto;
+    transition:  0.5s ease-in;
+    background: whitesmoke;
+    background-size: cover;
+    background-position: center;
+   box-sizing: border-box;
+  }
+  
+  .pageitem h2 {
+    margin-bottom: 0;}
+   
+  
+  .pageitem h3 {
+    border-bottom: #ccc 1px dashed;
+    padding-bottom: 5px;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 1%;}
+    
+  .pageitem ul.unordered {
+  list-style: none;
+  }
+  
+  .pageitem ul.unordered li:before {
+  font-family: FontAwesome;
+  content: "\f178";
+   margin:0 5px 0 -15px;
+  }
+  .img{
+    width: 100%;
+  
+  }
+  .col{
+    flex: 25%;
+    padding: 5px;
+  }
+  .col-img{
+    margin-top: 5px;
+  }
+  
+
 ul a{
     text-decoration: none;
 }
@@ -84,10 +138,9 @@ header{
     min-height: 50dvh;
 }
 p{
-    text-align: center;
-    font-size: xx-large;
-    color: yellow;
-    font-weight: bold;
+    text-align: left;
+    font-size: medium;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -101,7 +154,7 @@ footer{
     padding: 14px;
     font-size: 75%;
     border-top: 2px solid rgb(94,163,154);
-    background: green transparent;
+    background: green ;
     bottom: 0;
     
   
