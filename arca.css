@@ -146,14 +146,14 @@ header{
   
 }
 .pf-1{
+  text-align: center;
 margin: 0px 25px;
 }
 .pf-2{
-  margin-left: 15px;
-  width: 10rem;
+  text-align: center;
+  margin: 0px 25px;
   font-size: medium;
   font-style: italic;
-  text-align: right;
 }
 p{
     text-align: left;
@@ -172,7 +172,6 @@ footer{
     text-align: center;
     padding: 14px;
     font-size: 75%;
-    border-top: 2px solid rgb(2, 22, 171);
     background: rgba(0, 0, 0, 0.68) ;
     bottom: 0;
   
