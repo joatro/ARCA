@@ -141,20 +141,7 @@ header{
     background-position: center;
     min-height: 50dvh;
 }
-.parrafos{
-  display: flex;
-  
-}
-.pf-1{
-  text-align: center;
-margin: 0px 25px;
-}
-.pf-2{
-  text-align: center;
-  margin: 0px 25px;
-  font-size: medium;
-  font-style: italic;
-}
+
 p{
     text-align: left;
     font-size: large;
