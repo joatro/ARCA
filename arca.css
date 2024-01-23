@@ -31,8 +31,8 @@ nav{
     display: block;
     text-decoration: none;
     width: 100%;
-    background: rgb(255, 255, 255);
     text-align: right;
+    padding: 20px;
     
 }
 nav ol{
@@ -55,12 +55,11 @@ li a{
     color: rgb(255, 0, 0);
     text-align: left;
     padding-left: 5px;
-    font-size: medium;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
  
 }
 .content {
-    width: 100%;
+    width: 80%;
     text-align: center;
     vertical-align:middle;
     
@@ -82,7 +81,7 @@ li a{
     padding: 20px;
     margin:20px auto;
     transition:  0.5s ease-in;
-    background: rgba(225, 225, 225, 0.566);
+    background: rgba(138, 138, 138, 0.422);
     background-size: cover;
     background-position: center;
    box-sizing: border-box;
@@ -129,14 +128,15 @@ ol a{
     display: block;
     color: rgb(255, 255, 255);
     text-align: right;
-    
+    font-size: larger;
+    font-weight: 500;
     
 }
 
 header{
     width: 100%;
     
-    background:  linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url(/img/Screenshot\ 2021-12-26\ 10-03-03.png) no-repeat;
+    background:  linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(/img/Screenshot\ 2021-12-26\ 10-03-03.png) no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 50dvh;
@@ -144,8 +144,10 @@ header{
 
 p{
     text-align: left;
-    font-size: large;
+    font-size: larger;
     color: rgb(0, 0, 0);
+    padding-left: 10px;
+    
 }
 
 
@@ -159,7 +161,8 @@ footer{
     text-align: center;
     padding: 14px;
     font-size: 75%;
-    background: rgba(0, 0, 0, 0.68) ;
+    background: rgb(0, 0, 0) ;
+    border:  rgb(2, 2, 120) 2px solid;
     bottom: 0;
   
     
