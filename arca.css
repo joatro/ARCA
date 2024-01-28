@@ -10,8 +10,11 @@ h2
     align-items: center;
     text-align: center;
 }
+h4{
+  color: red;
+}
 h3,
-h4,
+
 h5
 
 {
@@ -56,8 +59,14 @@ li a{
     font-size: larger;
  
 }
+
+contenido{
+  width: 100%;
+  background: rgba(255, 255, 255, 0.799);
+
+}
 .content {
-    width: 95%;
+    width: 90%;
     text-align: center;
     vertical-align:middle;
     
@@ -75,11 +84,11 @@ li a{
     border-bottom:1px ;
     color:inherit; 
     text-align:justify; 
-    border:#ccc .02px solid;
+    border:#cccccca4 .02px solid;
     padding: 20px;
     margin:20px auto;
     transition:  0.5s ease-in;
-    background: rgba(138, 138, 138, 0.422);
+    background: rgba(138, 138, 138, 0.242);
     background-size: cover;
     background-position: center;
    box-sizing: border-box;
